@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostra</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Offer Message section -->
+
+    <section>
+      <div id="OfferMsg">
+        <h4>Sign Up and GET 20% OFF for your first Order</h4>
+        <p id="closeicon" class="cursor-pointer">X</p>
+      </div>
+    </section>
+
+    <nav>
+      <div class="flex justify-between mr-5 ml-5 p-5">
+        <div class="Logo">
+          <h1 class="font-bold text-3xl">Nostra</h1>
+        </div>
+        <div>
+          <ul class="flex gap-10 text-lg">
+            <li class="cursor-pointer hover:underline">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="index.html#NewArrivals">New Arrival</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="index.html#Mostwanted">Most Wanted</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="./collects.html">Collections</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- sliding section -->
+    <section>
+      <div>
+        <div class="Slider_container">
+          
+          <div class="slider_content">
+            <h1 class="">Level up your style with our</h1>
+          <h4 class="">Summer Collections</h4>
+          <button class="btn1">Shop Now
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          </div>
+         
+          <div class="slider-container" >
+            <div class="slider">
+              <img class="slide" src="image/slider-one.jpg"  alt="">
+              <img class="slide" src="image/slider-one.jpg"   alt="">
+            <img class="slide" src="image/slider-one.jpg"    alt=""> 
+            </div>
+             
+          
+
+          </div>
+          
+          <div class="sliderleft-activator">
+            <i
+              id="slider-left-activate"
+              onclick="nextSlide()" class="fa-solid fa-angle-left"
+              style="color: white; font-size: 10vw"
+            ></i>
+          </div>
+          <div class="sliderright-activator">
+            <i id="slider-right-activate" onclick="prevSlide()" class="fa-solid fa-angle-right" style="color:white; font-size: 10vw"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="font-bold text-3xl mr-10 ml-10 mt-20">Brands</h1>
+      <div id="brandimg_container" class="flex gap-32 ml-12">
+        <div class="brand_img">
+          <img src="./image/puma.png" alt="" />
+          <h2 class="font-medium text-2xl">Puma</h2>
+        </div>
+
+        <div class="brand_img">
+          <img src="./image/adidas.png" alt="" />
+          <h2 class="font-medium text-2xl">Adidas</h2>
+        </div>
+
+        <div class="brand_img">
+          <img src="./image/simple.png" alt="" />
+          <h2 class="font-medium text-2xl">Simple</h2>
+        </div>
+
+        <div class="brand_img">
+          <img src="./image/leaves.png" alt="" />
+          <h2 class="font-medium text-2xl">Leaves</h2>
+        </div>
+        <div class="brand_img">
+          <img src="./image/behance.png" alt="" />
+          <h2 class="font-medium text-2xl">Behance</h2>
+        </div>
+        <div class="brand_img">
+          <img src="./image/twitch.png" alt="" />
+          <h2 class="font-medium text-2xl">Twitch</h2>
+        </div>
+        <div class="brand_img">
+          <img src="./image/leaves.png" alt="" />
+          <h2 class="font-medium text-2xl">Leaves</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience section -->
+    <section class="mt-10 mr-10">
+      <div class="flex justify-between">
+        <div>
+          <h1 class="font-bold text-2xl ml-10">
+            We Provide Best <br />
+            Customer Experiences
+          </h1>
+        </div>
+        <div>
+          <p class="text-2xl">
+            || We ensure that our customer have the best shopping experience
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="m-10">
+      <div class="expericecontainer_s2 flex gap-10">
+        <div style="background-color: #f2f4f7; padding: 10px">
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-regular fa-circle-check"
+          ></i>
+          <h1>Original Products</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            consequuntur.
+          </p>
+        </div>
+
+        <div style="background-color: #f2f4f7; padding: 10px">
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-regular fa-face-smile"
+          ></i>
+          <h1>Satisfaction Guarantee</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            consequuntur.
+          </p>
+        </div>
+
+        <div style="background-color: #f2f4f7; padding: 10px">
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-solid fa-broom"
+          ></i>
+          <h1>New Arrival Everyday</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            consequuntur.
+          </p>
+        </div>
+
+        <div style="background-color: #f2f4f7; padding: 10px">
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-solid fa-truck-fast"
+          ></i>
+          <h1>Fast & Free Shipping</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            consequuntur.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--       
+      New Arrival -->
+
+    <section class="ml-5 mr-5">
+      
+      <h1 class="NewArrivals" style="font-size: 25px; " id="NewArrivals">New Arrivals</h1>
+      <div class="NewArriaval flex gap-20">
+        <div class="NewArrival_Card relative">
+          <img src="./image/f1.jpg" alt="" style="width: 20vw ;" />
+
+          <div class="overlay"></div>
+
+          <button
+            style="
+              background-color: white;
+              border-radius: 10px;
+              padding-left: 8%;
+              padding-right: 8%;
+              padding-top: 5%;
+              padding-bottom: 5%;
+              color: black;
+              font-size: 1vw;
+              position: absolute;
+              top: 50%;
+              left: 18%;
+              border: none;
+              z-index: 2;
+            "
+            
+          >
+           Shop Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="NewArrival_Card relative">
+          <img src="./image/f7.jpg" alt="" style="width: 20vw ;" />
+
+          <div class="overlay"></div>
+
+          <button
+            style="
+              background-color: white;
+              border-radius: 10px;
+              padding-left: 8%;
+              padding-right: 8%;
+              padding-top: 5%;
+              padding-bottom: 5%;
+              color: black;
+              font-size: 1vw;
+              position: absolute;
+              top: 50%;
+              left: 18%;
+              border: none;
+              z-index: 2;
+            "
+            
+          >
+           Shop Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="NewArrival_Card relative">
+          <img src="./image/n1.jpg" alt="" style="width: 20vw ;" />
+
+          <div class="overlay"></div>
+
+          <button
+            style="
+              background-color: white;
+              border-radius: 10px;
+              padding-left: 8%;
+              padding-right: 8%;
+              padding-top: 5%;
+              padding-bottom: 5%;
+              color: black;
+              font-size: 1vw;
+              position: absolute;
+              top: 50%;
+              left: 18%;
+              border: none;
+              z-index: 2;
+            "
+            
+          >
+           Shop Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="NewArrival_Card relative">
+          <img src="./image/n7.jpg" alt="" style="width: 20vw ;" />
+
+          <div class="overlay"></div>
+
+          <button
+            style="
+              background-color: white;
+              border-radius: 10px;
+              padding-left: 8%;
+              padding-right: 8%;
+              padding-top: 5%;
+              padding-bottom: 5%;
+              color: black;
+              font-size: 1vw;
+              position: absolute;
+              top: 50%;
+              left: 18%;
+              border: none;
+              z-index: 2;
+            "
+            
+          >
+           Shop Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+<!-- Most Wanted -->
+    
+    <section class="ml-5 mr-5">
+      <h1 class="Mostwanted" style="font-size: 25px;" id="Mostwanted">Most Wanted</h1>
+      <div class="Mostwanted_container flex gap-20">
+        <div class="MOstWanted_Card relative">
+          <img src="./image/f1.jpg" alt="" style="width: 20vw ;" />
+
+         
+          <button
+            style="
+              background-color: red;
+              border-radius: 10px;
+              padding-left: 8%;
+              padding-right: 8%;
+              padding-top: 5%;
+              padding-bottom: 5%;
+              color: white;
+              font-size: 1vw;
+              position: absolute;
+              top: 2%;
+              left: 2%;
+              border: none;
+              z-index: 2;
+            "
+            
+          >
+           Sale
+          </button>
+
+          <img src="./image/icon/blackheart.png" alt="" style="width: 3vw;bottom:15%; right: 5%; " class="absolute">
+        </div>
+
+        <div class="MOstWanted_Card relative">
+          <img src="./image/n1.jpg" alt="" style="width: 20vw" />
+
+          <button
+          style="
+            background-color: red;
+            border-radius: 10px;
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            color: white;
+            font-size: 1vw;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            border: none;
+            z-index: 2;
+          "
+          
+        >
+         Sale
+        </button>
+
+        <img src="./image/icon/blackheart.png" alt="" style="width: 3vw;bottom:15%; right: 5%; " class="absolute">
+        </div>
+
+        <div class="MOstWanted_Card relative">
+          <img src="./image/n3.jpg" alt="" style="width: 20vw" />
+
+          <button
+          style="
+            background-color: red;
+            border-radius: 10px;
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            color: white;
+            font-size: 1vw;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            border: none;
+            z-index: 2;
+          "
+          
+        >
+         Sale
+        </button>
+
+        <img src="./image/icon/blackheart.png" alt="" style="width: 3vw;bottom:15%; right: 5%; " class="absolute">
+        </div>
+
+        <div class="MOstWanted_Card relative">
+          <img src="./image/f1.jpg" alt="" style="width: 20vw" />
+
+          <button
+          style="
+            background-color: red;
+            border-radius: 10px;
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            color: white;
+            font-size: 1vw;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            border: none;
+            z-index: 2;
+          "
+          
+        >
+         Sale
+        </button>
+
+        <img src="./image/icon/blackheart.png" alt="" style="width: 3vw;bottom:15%; right: 5%; " class="absolute">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="offersec">
+        <div class="offersec_img">
+          <img src="./image/offer.jpg" alt="">
+        </div>
+
+        <div class=" offersec_msg">
+          <h1>Limited Offer</h1>
+          <h3>35% OFF on this for the first 30 Customers</h3>
+          <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+
+        </div>
+       
+
+      </div>
+    </section>
+
+
+    <!-- news letter -->
+    <section>
+      <div class="NewsLetter">
+        <h1>Join our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more
+
+        </p>
+
+        <input type="text" name="" id="SubscribeInput">
+        <br>
+        <button class="subscribebtn">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section>
+      <div class="footer">
+        <h1>Nostra</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <div class="footer_icon">
+          <div>
+            <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+          </div>
+          <div>
+            <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+          </div>
+         
+          <div>
+            <i class="icon fa-brands fa-facebook" style="color: #ffffff; "></i>
+          </div>
+         
+          
+         
+        </div>
+        <div>
+          <p class="subtitle">@ 2024 Nostra.com</p>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>

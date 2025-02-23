@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostra</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Offer Message section -->
+
+    <section>
+      <div id="OfferMsg">
+        <h4>Sign Up and GET 20% OFF for your first Order</h4>
+        <p id="closeicon" class="cursor-pointer">X</p>
+      </div>
+    </section>
+
+    <nav>
+      <div class="flex justify-between mr-5 ml-5 p-5">
+        <div class="Logo">
+          <h1 class="font-bold text-3xl">Nostra</h1>
+        </div>
+        <div>
+          <ul class="flex gap-10 text-lg">
+            <li class="cursor-pointer hover:underline">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#">New Arrival</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#">Most Wanted</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="./collects.html">Collections</a>
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="collection_container">
+      <div class="section_divitor">
+        <!-- CheckBox Section -->
+
+        <div class="selection_section">
+          <!-- Occasion Section -->
+          <div class="collection__CheckBox">
+            <h1 class="collectin_title">Occasion</h1>
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="Summer" id="Summer"  />
+              <label for="Summer">Summer</label>
+            </div>
+
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="Party" id="Party"  />
+              <label for="Party">Party</label>
+            </div>
+
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="Beach" id="Beach"  />
+              <label for="Beach">Beach</label>
+            </div>
+          </div>
+
+          <!-- colors Section -->
+          <div class="collection__CheckBox">
+            <h1 class="collectin_title">Colors</h1>
+
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="Red" id="Red"  />
+              <label for="Red">Red</label>
+            </div>
+
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="Blue" id="Blue"  />
+              <label for="Blue">Blue</label>
+            </div>
+
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="White" id="White"  />
+              <label for="White">White</label>
+            </div>
+
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="Green" id="Green" />
+              <label for="Green">Green</label>
+            </div>
+          </div>
+
+          <!-- NewArrival Section -->
+          <div class="collection__CheckBox">
+            <h1 class="collectin_title">Arrivals</h1>
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="New" id="New"  />
+              <label for="New">New</label>
+            </div>
+
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox1" value="Old" id="Old" />
+              <label for="Old">Old</label>
+            </div>
+          </div>
+          <!-- Vertical Line -->
+          <hr class="vl" />
+          <!-- Vertical Line End -->
+        </div>
+
+        <div class="img_collection" style="margin-right: 25px;">
+
+          <div>
+            <form class="SearchBar">
+              <input type="text" id="search" placeholder="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+          </div>
+
+          <Div id="img_container">
+            <div class="img_card">
+              <img src="./image/f1.jpg" alt="">
+              <h1>Floral Summer Shirt</h1>
+              <p>₹220</p>
+              <span  class="categories" style="visibility: hidden; ">Summer,New,Blue</span>
+              
+            </div>
+    
+          <div class="img_card">
+              <img src="./image/f2.jpg" alt="">
+              <h1>Summer Green</h1>
+              <p>₹260</p>
+              <span  class="categories" style="visibility: hidden;">Summer,New,Green</span>
+          </div>
+    
+          <div class="img_card">
+            <img src="./image/f3.jpg" alt="">
+            <h1>Party Floral Shirt</h1>
+              <p>₹399</p>
+              <span  class="categories" style="visibility: hidden;">Party,Old,Red</span>
+           </div>
+    
+          <div class="img_card">
+          <img src="./image/f4.jpg" alt="">
+          <h1>Floral Summer Shirt</h1>
+              <p>₹220</p>
+              <span  class="categories" style="visibility: hidden;">Summer,Old,Red</span>
+          </div>
+
+          <div class="img_card">
+            <img src="./image/f5.jpg" alt="">
+            <h1>Beach Shirt</h1>
+              <p>₹399</p>
+              <span class="categories" style="visibility: hidden;">Beach,Old,Red</span>
+           </div>
+
+           <div class="img_card">
+            <img src="./image/f6.jpg" alt="">
+            <h1>Shirt Party Red</h1>
+              <p>₹579</p>
+              <span class="categories" style="visibility: hidden;">Party,New,Red</span>
+           </div>
+
+           <div class="img_card">
+            <img src="./image/f7.jpg" alt="">
+            <h1>Party Floral Shirt</h1>
+              <p>₹399</p>
+              <span class="categories" style="visibility: hidden;">Party,Old,White</span>
+           </div>
+
+           <div class="img_card">
+            <img src="./image/f2.jpg" alt="">
+            <h1>Summer Green</h1>
+              <p>₹399</p>
+              <span class="categories" style="visibility: hidden;">Summer,Old,Green</span>
+           </div>
+
+           <div class="img_card">
+            <img src="./image/f3.jpg" alt="">
+            <h1>Beach Floral Shirt</h1>
+              <p>₹399</p>
+              <span class="categories" style="visibility: hidden;">Beach,New,White</span>
+           </div>
+          </Div>
+        </div>
+      </div>
+    </div>
+     <!-- news letter -->
+     <section>
+      <div class="NewsLetter">
+        <h1>Join our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more
+
+        </p>
+
+        <input type="text" name="" id="SubscribeInput">
+        <br>
+        <button class="subscribebtn">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section>
+      <div class="footer">
+        <h1>Nostra</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <div class="footer_icon">
+          <div>
+            <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+          </div>
+          <div>
+            <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+          </div>
+         
+          <div>
+            <i class="icon fa-brands fa-facebook" style="color: #ffffff; "></i>
+          </div>
+        </div>
+        <div>
+          <p class="subtitle">@ 2024 Nostra.com</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./collects.js"></script>
+  </body>
+  
+</html>

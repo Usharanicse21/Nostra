@@ -332,3 +332,9 @@ hr
 .show {
     display: block;
 }
+#Contactform{
+    width: 60vw;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
